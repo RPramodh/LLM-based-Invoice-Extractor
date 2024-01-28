@@ -12,7 +12,7 @@ headers = {
 }
 
 # Configure the Google API key directly from Streamlit secrets
-genai.configure(api_key=st.secrets["google_api_key"])
+genai.configure(api_key=st.secrets["api_key"])
 
 # Function to load OpenAI model and get responses
 def get_gemini_response(input, image, prompt):

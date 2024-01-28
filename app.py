@@ -35,7 +35,7 @@ def input_image_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 # Initialize the Streamlit app
-st.set_page_config(page_title="Gemini Image Demo")
+st.set_page_config(page_title="Invoice Extractor LLM")
 
 # UI elements
 st.header("Multi Language Invoice Extractor")
